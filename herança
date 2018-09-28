@@ -1,0 +1,27 @@
+# Desenvolvimento-movel
+
+//Tem que usar a palavra open, para a classe cachorro herdar a class animal
+open class Animal(){
+	fun dormir(){
+		println("Dormindo...")
+	}
+  	fun comer(){
+        println("comendo")
+    }
+}
+//herança da class Animal
+class Cachorro: Animal(){
+    fun latir(){
+        println("Latindo")
+    }
+}
+
+class Ave: Animal(){}
+    fun main(args: Array<String>){
+        var cao = Cachorro()
+        var piupiu = Ave()
+        cao.dormir()
+        cao.latir()
+}
+
+
